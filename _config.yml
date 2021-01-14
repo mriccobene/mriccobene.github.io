@@ -48,7 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I design and build software systems considering <mark>architectural issues</mark> and <mark>human factors</mark>.
+  I design and build software systems considering <mark>architectural issues</mark> and human factors.
+
   My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
   software architecture and the qualities it determines, and human computer interaction. 
   
@@ -56,9 +57,10 @@ about_content: | # this will include new lines to allow paragraphs
 
   I have written software using <mark>languages</mark> like C++, Java, Python, JavaScript/TypeScript, Solidity.
 
-  I think code is mostly for humans, not for machines ;-)
-
   I live and swim in Genoa.
+
+  Ah, I think code is mostly for <mark>humans</mark>, not for machines ;-)
+  
 
 content:
   - title: Projects # Title for the section
