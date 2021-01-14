@@ -1,0 +1,216 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Michelangelo Riccobene 
+title: Senior Software Engineer (MSc)
+#email: missing
+website: www.github.com/mriccobene
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: rimichelangelo
+github_username:  mriccobene
+# stackoverflow_username: "00000001"
+# dribbble_username: mike
+# facebook_username: mike
+# flickr_username: mike
+#instagram_username: mike
+linkedin_username: michelangeloriccobene
+# xing_username: mike
+# pinterest_username: mike
+#youtube_username: mike
+# googleplus_username: +mike
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: about.me
+  icon: fas fa-globe
+  url: http://about.me/rimic
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I design and build software systems considering <mark>architectural issues</mark> and <mark>human factors</mark>.
+  My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
+  software architecture and the qualities it determines, and human computer interaction. 
+  
+  I have been a member of <mark>ACM</mark> since 2002.  
+
+  I have written software using <mark>languages</mark> like C++, Java, Python, JavaScript/TypeScript, Solidity.
+
+  I think code is mostly for humans, not for machines ;-)
+
+  I live in Genoa.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Ethereum Gateway
+        # link: github.com/ethereum-gw
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A serverless application that uses AWS Step Function workflow to model an Ethereum transaction life cycle. 
+          It signs & submits a tx, tracks its outcome, speeds up or recovers it if lost.
+        description: | # this will include new lines to allow paragraphs
+          The application enable an enterprise component to interact to an Ethereum-like blockchain 
+          using an HTTP REST interface so fencing the underlying details.
+
+          The project uses the <mark>serverless</mark> framework so the owner pay only when use it; 
+          it generates an AWS Api Gateway backed by <mark>lambda functions</mark> and use MongoDB for persistence.
+          The code is short thanks to its object-oriented model; lambda functions are clean for the same reason and only manage HTTP issues; 
+          persistence is schemaless to truly take advantage of the NoSQL paradigm. 
+
+          I used ethers.js for blockchain related tasks.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: RSE
+        #link: https://www.blockchainitalia.io/
+        #link_text: blockchainitalia.io
+        sub_title: Software Solution Architect - Owner
+        caption: Aug 2018 - Present
+        quote: >
+          Mixing studies and practice
+        description: | # this will include new lines to allow paragraphs
+          I am a <mark>freelance</mark> and I bring my experience in the design and implementation of computer systems, gained in different sectors, to the customer's problem.
+
+      - layout: left
+        title: Blockchain Italia
+        link: https://www.blockchainitalia.io/
+        link_text: blockchainitalia.io
+        sub_title: Blockchain Solutions Engineer - Cofounder
+        caption: Aug 2018 - Present
+        quote: >
+          Blockchain Italia is a software house based in Milan specialized in fintech and blockchain solutions. We are also located in Genoa, Venice and Madrid
+        description: | # this will include new lines to allow paragraphs
+          I employ the blockchain and some elements of <mark>cryptography</mark> to assure decentralization, privacy, security, reliability 
+          (certainty of data and of code execution).
+
+      - layout: left
+        title: Deepit 
+        link: https://www.deepit.ch/
+        link_text: deepit.ch
+        sub_title: Blockchain and dApp Engineer - Cofounder
+        caption: Jul 2018 - Dec 2020
+        quote: >
+          We support companies in their approach to the world of blockchain through the highest technological standards and the best expertise in the industry
+        description: | # this will include new lines to allow paragraphs
+            I worked in a team that built a <mark>decentralized</mark> application that used non fungible tokens (ERC-721) to notarize documents, 
+            using an L2 ethereum-like chain based on Proof-of-Authority provided of a bridge to transfer tokens to Ethereum. 
+
+            I also sketched some ideas about the use of blockchain and cryptography to disintermediate authority in a concrete scenarios.
+            
+      - layout: left
+        title: Noku 
+        link: https://www.noku.io/
+        link_text: noku.io
+        sub_title: Blockchain Engineer
+        caption: Dec 2017 - Dec 2018
+        quote: >
+          Noku is not a software, is not a blockchain, is not a bank. It’s a community of people that want to exchange value and trust.
+        description: | # this will include new lines to allow paragraphs
+            I was in the ICO dev team.
+            Later I co-designed the <mark>Ethereum</mark> smart-contracts of the TokenRaise platform which offers easy to use interfaces to create 
+            your own token and launch any Blockchain crowdsale.
+
+      - layout: left
+        title: Jtech
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Application Design, Engineering & Development
+        caption: Jan 2014 - Present
+        quote: >
+          Java Enterprise Applications
+        description: | # this will include new lines to allow paragraphs
+            I am a partner of Jtech that is a software house that develops software in many environments: energy governance, maritime, safety, assurance, pharmaceutical.
+
+      - layout: left
+        title: Telecom companies
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Senior/Lead Software Engineer
+        caption: Feb 2001 - Nov 2013
+        quote: >
+          Reliability and scalability focused works
+        description: | # this will include new lines to allow paragraphs
+            I worked in teams responsible of evolving a proprietary <mark>telephone</mark> switch (c++) in a soft real time context. 
+            Relevant projects was VOIP implementation and quality/cost-based call routing.
+
+            The team pioneered the <mark>devops</mark> paradigm being responsible of the software development, hardware maintenance, 
+            networking configuration and service operation. 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Palermo
+        caption: 2000
+        sub_title: MSc in Computer Engineering
+        quote: >
+          Linear algebra, calculus, physics, systems theory, software engineering, artificial intelligence, statistics, programming languages are fun courses ;-)
+        description: | # this will include new lines to allow paragraphs
+          I graduated cum laude with an experimental thesis on the control software of a generator. 
+          Relevant projects: construction of a language to program a numerical control lathe; 
+          construction of an ide with an interpreter for an image processing language; 
+          an object oriented library to do matrix calculation;
+          parallel programming on a transputer board
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I have experience and expertise in: 
+      - <mark>object-oriented</mark> analysis design and development
+      - <mark>design patterns</mark>
+      - analysis & design of <mark>concurrent</mark> <mark>reactive</mark> and <mark>distributed</mark> systems
+      - <mark>serverless</mark> paradigm
+      - organization of <mark>Sql</mark> and <mark>NoSql</mark> data base
+      - <mark>cloud computing</mark>
+      - <mark>networking</mark>
+      - <mark>web</mark> development
+      - <mark>blockchain</mark> development
+
+# to add a link: [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
+# to link an image: ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
