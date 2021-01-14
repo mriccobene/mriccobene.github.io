@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Michelangelo Riccobene 
 title: Senior Software Engineer (MSc)
-#email: missing
+email: 
 website: www.github.com/mriccobene
 
 # Dark Mode (true/false/never)
@@ -58,7 +58,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I think code is mostly for humans, not for machines ;-)
 
-  I live in Genoa.
+  I live and swim in Genoa.
 
 content:
   - title: Projects # Title for the section
@@ -88,6 +88,27 @@ content:
           persistence is schemaless to truly take advantage of the NoSQL paradigm. 
 
           I used ethers.js for blockchain related tasks.
+
+      - layout: top-middle
+        title: DeeCert 
+        # link: github.com/ethereum-gw
+        # link_text: Project Website
+        additional_links:
+          - title:  public presentation article
+            icon: far fa-newspaper
+            url: https://www.deepit.ch/public-presentation-deecert-protocol-in-evidance/
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A decentralized application for document certification, contract acceptance, property transfer that issues ERC-721 tokens.
+
+        description: | # this will include new lines to allow paragraphs
+          I was a member of the team that developed this application. 
+          We used the [Universal Login](https://unilogin.io/) framework for a frictionless user experience with blockchain,
+          IPFS as document repository, an Ethereum sidechain as default blockchain, a tx relay infrastructure to pay gas using tokens,
+          the [Arbitrary Message Bridge](https://docs.tokenbridge.net/amb-bridge/about-amb-bridge) to transfer relevant tokens to the main Ethereum chain,
+          react.js for the user interface and no servers!    
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -124,8 +145,8 @@ content:
         quote: >
           We support companies in their approach to the world of blockchain through the highest technological standards and the best expertise in the industry
         description: | # this will include new lines to allow paragraphs
-            I worked in a team that built a <mark>decentralized</mark> application that used non fungible tokens (ERC-721) to notarize documents, 
-            using an L2 ethereum-like chain based on Proof-of-Authority provided of a bridge to transfer tokens to Ethereum. 
+            I worked in a team of talented peoples that built a <mark>decentralized</mark> application for document tokenization; 
+            we also developed an extension for a DeFi token to bridge it with Aave.
 
             I also sketched some ideas about the use of blockchain and cryptography to disintermediate authority in a concrete scenarios.
             
@@ -163,7 +184,7 @@ content:
           Reliability and scalability focused works
         description: | # this will include new lines to allow paragraphs
             I worked in teams responsible of evolving a proprietary <mark>telephone</mark> switch (c++) in a soft real time context. 
-            Relevant projects was VOIP implementation and quality/cost-based call routing.
+            Relevant projects: VOIP implementation and quality/cost-based call routing; an interactive voice responder (IVR) in python with Asterisk as phone server.
 
             The team pioneered the <mark>devops</mark> paradigm being responsible of the software development, hardware maintenance, 
             networking configuration and service operation. 
@@ -203,7 +224,7 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: see GitHub for my email or book a consultation using https://about.me/rimic
 
 # Build settings
 remote_theme: sproogen/resume-theme
