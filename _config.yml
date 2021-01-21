@@ -46,7 +46,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.gif
 about_content: | # this will include new lines to allow paragraphs
   I design and build software systems considering <mark>architectural issues</mark> and human factors.
 
