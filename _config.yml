@@ -78,7 +78,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          A serverless application that uses [AWS Step Functions](https://aws.amazon.com/step-functions/) workflow to model an Ethereum transaction life cycle. 
+          A serverless application that uses AWS Step Functions workflow to model an Ethereum transaction life cycle. 
           It signs & submits a tx, tracks its outcome, speeds up or recovers it if lost.
         description: | # this will include new lines to allow paragraphs
           The application enable an enterprise component to interact to an Ethereum-like blockchain 
