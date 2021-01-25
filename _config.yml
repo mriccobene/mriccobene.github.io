@@ -48,10 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.gif
 about_content: | # this will include new lines to allow paragraphs
-  I design and build software systems considering <mark>architectural issues</mark> and human factors.
+  I design and build software systems taking into account <mark>architectural issues</mark> and human factors.
 
   My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
-  software architecture and the qualities it determines, and human-machine interaction. 
+  software architecture and the qualities it determines, as well as human-machine interaction. 
   
   I have been a member of <mark>ACM</mark> since 2002.  
 
@@ -81,14 +81,14 @@ content:
           A serverless application that uses AWS Step Functions workflow to model an Ethereum transaction life cycle. 
           It signs & submits a tx, tracks its outcome, speeds up or recovers it if lost.
         description: | # this will include new lines to allow paragraphs
-          The application enable an enterprise component to interact to an Ethereum-like blockchain 
+          The application enables an enterprise component to interact with an Ethereum-like blockchain 
           using an HTTP REST interface hiding the underlying details.
 
-          The project uses the <mark>serverless framework</mark> [(see here)](https://www.serverless.com/) so the owner pays only when she uses it; 
+          The project uses the <mark>serverless framework</mark> [(see here)](https://www.serverless.com/) so that the owner only pays when he/she uses it; 
           it generates an [AWS Api Gateway](https://aws.amazon.com/it/api-gateway/) backed by <mark>lambda functions</mark> and uses [MongoDB](https://www.mongodb.com/) for persistence.
-          The code is short thanks to its object-oriented model; [lambda functions](https://aws.amazon.com/lambda) are clean for the same reason and only manage HTTP issues; 
+          
+          Thanks to its object-oriented model, the code is short and the [lambda functions](https://aws.amazon.com/lambda) are clean (they only manage HTTP issues);
           persistence is schemaless to truly take advantage of the [NoSQL](https://en.wikipedia.org/wiki/NoSQL) paradigm. 
-
           I used ethers.js for blockchain related stuff.
 
       - layout: top-middle
@@ -120,11 +120,11 @@ content:
         #link: https://www.blockchainitalia.io/
         #link_text: blockchainitalia.io
         sub_title: Software Solution Architect - Owner
-        caption: Aug 2018 - Present
+        caption: Jan 2014 - Present
         quote: >
           Mixing studies and practice
         description: | # this will include new lines to allow paragraphs
-          I am a <mark>freelance</mark> and I bring to my customers my experience in the design and implementation of computer systems, gained in 20 years across different sectors.
+          Working as a <mark>freelence</mark>, I apply the experience that I gained designing and implementating computer systems in various sectors, to solve the customer's problems.
 
       - layout: left
         title: Blockchain Italia
@@ -147,9 +147,9 @@ content:
         quote: >
           We support companies in their approach to the blockchain world through the highest technological standards and the best expertise in the industry.
         description: | # this will include new lines to allow paragraphs
-            I worked in a team of talented peoples that built a <mark>decentralized</mark> application for document tokenization; we also developed an extension for a DeFi token to bridge it with [AAVE protocol](https://aave.com/).
-
-            I also sketched some ideas about the use of blockchain and cryptography to disintermediate authority in a concrete scenarios.
+            I was part of a team of talented people who built a <mark>decentralized</mark> application for document tokenization; during our collaboration, we have also jointly developed an extension for a DeFi token to bridge it with [AAVE protocol](https://aave.com/).
+            
+            During this time I also sketched some ideas on the use of blockchain and cryptography to disintermediate authority in real life scenarios.
             
       - layout: left
         title: Noku 
@@ -158,7 +158,7 @@ content:
         sub_title: Blockchain Engineer
         caption: Dec 2017 - Dec 2018
         quote: >
-          Noku is not a software, is not a blockchain, is not a bank. It’s a community of people that want to exchange value and trust.
+          Noku is not a software, is not a blockchain, is not a bank. It's a community of people that want to exchange value and trust.
         description: | # this will include new lines to allow paragraphs
             I was in the ICO dev team. Later I co-designed the <mark>Ethereum</mark> smart-contracts of the TokenRaise platform which offers easy to use interfaces to create 
             your own token and launch any blockchain crowdsale.
@@ -172,8 +172,8 @@ content:
         quote: >
           Java Enterprise Applications
         description: | # this will include new lines to allow paragraphs
-            I am a partner of Jtech, a software house that develops software in many contexts: energy governance, maritime, safety, assurance, pharmaceutical.
-
+            I am a partner of Jtech, a software house developing software to serve the needs of several different industries: energy governance, maritime, safety, assurance, pharmaceutical.
+            
       - layout: left
         title: Telecom companies
         # link: boringcompany.com
@@ -203,7 +203,7 @@ content:
           Relevant projects: construction of a language to program a numerical control lathe; 
           construction of an ide with an interpreter for an image processing language; 
           an object oriented library to do matrix calculation;
-          parallel programming on a transputer board
+          parallel programming on a transputer board.
 
   - title: A Little More About Me
     layout: text
@@ -213,7 +213,7 @@ content:
       - <mark>design patterns</mark>
       - analysis & design of <mark>concurrent</mark> <mark>reactive</mark> and <mark>distributed</mark> systems
       - <mark>serverless</mark> paradigm
-      - organization of <mark>Sql</mark> and <mark>NoSql</mark> data base
+      - organization of <mark>Sql</mark> and <mark>NoSql</mark> data bases
       - <mark>cloud computing</mark>
       - <mark>networking</mark>
       - <mark>web</mark> development
