@@ -67,6 +67,40 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: Silkworm open source project
+        link: github.com/torquem-ch/silkworm
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          C++ implementation of the Ethereum protocol based on the Erigon architecture.
+        description: | # this will include new lines to allow paragraphs
+          Silkworm is a greenfield <mark>C++</mark> implementation of the Ethereum protocol based on the [Erigon](https://github.com/ledgerwatch/erigon) architecture. 
+          It aims to be the fastest Ethereum client while maintaining the high quality and readability of its source code. 
+          I am involved in its development; currently I am developing the header downloader
+
+      - layout: top-middle
+        title: Folks Finance
+        link: folks.finance
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A capital markets protocol for borrowing and lending built on the top of the Algorand blockchain.
+        description: | # this will include new lines to allow paragraphs
+          This is DeFi (Decentralized Finance) project based on Algorand blockchain. I have been on the team since the beginning.
+          
+      - layout: top-middle
         title: Ethereum Gateway
         # link: github.com/ethereum-gw
         # link_text: Project Website
