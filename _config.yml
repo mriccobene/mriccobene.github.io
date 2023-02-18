@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
   software architecture and the qualities it determines, as well as human-machine interaction. 
   
-  I have been a member of <mark>ACM</mark> since 2002.  
+  I am an Ethereum core dev and I also design trustless applications using blockchain, cryptography and software engineering.
 
   I have written software using <mark>programming languages</mark> like C++, Java, Python, JavaScript/TypeScript, Solidity.
 
@@ -63,6 +63,24 @@ about_content: | # this will include new lines to allow paragraphs
   
 
 content:
+  - layout: top-middle
+    title: Silkworm (Ethereum EL)
+    link: github.com/torquem-ch/silkworm
+    # link_text: Project Website
+    additional_links:
+      # - title:  sproogen/modern-resume-theme
+      #   icon: fab fa-github
+      #   url: github.com/sproogen/modern-resume-theme
+      # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #   icon: fab fa-github
+      #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+    quote: >
+      Open source C++ implementation of the Ethereum Execution Layer (EL) protocol.
+    description: | # this will include new lines to allow paragraphs
+      Silkworm is a greenfield <mark>C++</mark> implementation of the Ethereum Execution Layer (EL) protocol based on the [Erigon Thorax architecture](https://github.com/ledgerwatch/erigon#key-features) architecture. 
+      It aims to be the fastest Ethereum EL client while maintaining the high quality and readability of its source code. 
+      I am involved in its development: I developed the header & body downloader and I am now working on adapting it to the proof-of-stake mechanism that Ethereum has recently switched on.
+      
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -81,24 +99,6 @@ content:
           A capital markets protocol for borrowing and lending built on the top of the Algorand blockchain.
         description: | # this will include new lines to allow paragraphs
           This is a DeFi (Decentralized Finance) project based on Algorand blockchain. I have been on the team since the beginning. You can access it [here](https://folks.finance/)
-
-      - layout: top-middle
-        title: Silkworm open source project
-        link: github.com/torquem-ch/silkworm
-        # link_text: Project Website
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          C++ implementation of the Ethereum protocol based on the Erigon architecture.
-        description: | # this will include new lines to allow paragraphs
-          Silkworm is a greenfield <mark>C++</mark> implementation of the Ethereum protocol based on the [Erigon](https://github.com/ledgerwatch/erigon) architecture. 
-          It aims to be the fastest Ethereum client while maintaining the high quality and readability of its source code. 
-          I am involved in its development: I developed the header downloader and now I am developing the body downloader
           
       - layout: top-middle
         title: Ethereum Gateway
