@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
   software architecture and the qualities it determines, as well as human-machine interaction. 
   
-  I am an Ethereum core dev and I also design trustless applications using blockchain, cryptography and software engineering.
+  I am an Ethereum core dev and I also design trustless applications using <mark>blockchain</mark>, <mark>cryptography</mark> and <mark>software engineering</mark>.
 
   I have written software using <mark>programming languages</mark> like C++, Java, Python, JavaScript/TypeScript, Solidity.
 
@@ -63,27 +63,28 @@ about_content: | # this will include new lines to allow paragraphs
   
 
 content:
-  - layout: top-middle
-    title: Silkworm (Ethereum EL)
-    link: github.com/torquem-ch/silkworm
-    # link_text: Project Website
-    additional_links:
-      # - title:  sproogen/modern-resume-theme
-      #   icon: fab fa-github
-      #   url: github.com/sproogen/modern-resume-theme
-      # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #   icon: fab fa-github
-      #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-    quote: >
-      Open source C++ implementation of the Ethereum Execution Layer (EL) protocol.
-    description: | # this will include new lines to allow paragraphs
-      Silkworm is a greenfield <mark>C++</mark> implementation of the Ethereum Execution Layer (EL) protocol based on the [Erigon Thorax architecture](https://github.com/ledgerwatch/erigon#key-features) architecture. 
-      It aims to be the fastest Ethereum EL client while maintaining the high quality and readability of its source code. 
-      I am involved in its development: I developed the header & body downloader and I am now working on adapting it to the proof-of-stake mechanism that Ethereum has recently switched on.
-      
+     
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Silkworm (Ethereum EL)
+        link: github.com/torquem-ch/silkworm
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Open source C++ implementation of the Ethereum Execution Layer (EL) protocol.
+        description: | # this will include new lines to allow paragraphs
+          Silkworm is a greenfield <mark>C++</mark> implementation of the <mark>Ethereum</mark> Execution Layer (EL) protocol based on the [Erigon Thorax architecture](https://github.com/ledgerwatch/erigon#key-features). 
+          It aims to be the fastest Ethereum EL client while maintaining the high quality and readability of its source code. 
+          I am involved in its development: I developed the header & body downloader and I am now working on adapting it to the proof-of-stake mechanism that Ethereum has recently switched on.
+
       - layout: top-middle
         title: Folks Finance
         link: folks.finance
@@ -98,7 +99,7 @@ content:
         quote: >
           A capital markets protocol for borrowing and lending built on the top of the Algorand blockchain.
         description: | # this will include new lines to allow paragraphs
-          This is a DeFi (Decentralized Finance) project based on Algorand blockchain. I have been on the team since the beginning. You can access it [here](https://folks.finance/)
+          This is a DeFi (Decentralized Finance) project developed by Blockchain Italia. I have been on the team since the beginning, there I drafted the early design of the protocol. You can access it [here](https://folks.finance/)
           
       - layout: top-middle
         title: Ethereum Gateway
@@ -150,6 +151,29 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Erigon
+        link: https://github.com/ledgerwatch/erigon
+        link_text: erigon @ github
+        sub_title: Ethereum Core Dev
+        caption: Feb 2021 - Present
+        quote: >
+          Open source project
+        description: | # this will include new lines to allow paragraphs
+          I work in the [Silkworm](https://github.com/torquem-ch/silkworm) sub-project whose team deals with the <mark>c++</mark> implementation of the Ethereum core
+          
+      - layout: left
+        title: Blockchain Italia
+        link: https://www.blockchainitalia.io/
+        link_text: blockchainitalia.io
+        sub_title: Blockchain Solutions Engineer - Cofounder
+        caption: Aug 2018 - Present
+        quote: >
+          Blockchain Italia is a software house based in Milan specialized in fintech and blockchain solutions.
+        description: | # this will include new lines to allow paragraphs
+          I employ the <mark>blockchain</mark> and some elements of <mark>cryptography</mark> to ensure trustiness, decentralization, privacy, reliability 
+          (certainty of data and code execution).
+
+      - layout: left
         title: RSE
         #link: https://www.blockchainitalia.io/
         #link_text: blockchainitalia.io
@@ -158,19 +182,7 @@ content:
         quote: >
           Mixing studies and practice
         description: | # this will include new lines to allow paragraphs
-          Working as a <mark>freelence</mark>, I apply the experience that I gained designing and implementating computer systems in various sectors, to solve the customer's problems.
-
-      - layout: left
-        title: Blockchain Italia
-        link: https://www.blockchainitalia.io/
-        link_text: blockchainitalia.io
-        sub_title: Blockchain Solutions Engineer - Cofounder
-        caption: Aug 2018 - Present
-        quote: >
-          Blockchain Italia is a software house based in Milan specialized in fintech and blockchain solutions. We are also located in Genoa, Venice and Madrid
-        description: | # this will include new lines to allow paragraphs
-          I employ the blockchain and some elements of <mark>cryptography</mark> to ensure decentralization, privacy, security, reliability 
-          (certainty of data and code execution).
+          Working as a consultant, I apply the experience that I gained designing and implementating computer systems in various sectors, to solve the customer's problems.
 
       - layout: left
         title: Deepit 
@@ -202,7 +214,7 @@ content:
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Application Design, Engineering & Development
-        caption: Jan 2014 - Present
+        caption: Jan 2014 - Dec 2022
         quote: >
           Java Enterprise Applications
         description: | # this will include new lines to allow paragraphs
