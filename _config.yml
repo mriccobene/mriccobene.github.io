@@ -83,8 +83,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           Silkworm is a greenfield <mark>C++</mark> implementation of the <mark>Ethereum</mark> Execution Layer (EL) protocol based on the [Erigon Thorax architecture](https://github.com/ledgerwatch/erigon#key-features). 
           It aims to be the fastest Ethereum EL client while maintaining the high quality and readability of its source code. 
-          I am involved in its development: I developed the header & body downloader and I am now working on adapting it to the proof-of-stake mechanism that Ethereum has recently switched on.
-
+          I contributed to the project by developing the C++ version of the header and body downloader for Proof of Work (PoW), adapting the innovative approach originally devised in Erigon. 
+          Furthermore, I played a supportive role in the integration of Proof of Stake (PoS), specifically by implementing an inversion of control strategy as envisioned by our lead developer. 
+          This pivotal modification transformed the operational dynamic, enabling the Consensus Layer (CL) to direct the EL. This shift away from an EL-centric loop involving the CL to a more flexible architecture made it possible to plug different CL algorithms into the system, significantly enhancing its adaptability and performance.
+          
       - layout: top-middle
         title: Folks Finance
         link: folks.finance
@@ -99,7 +101,9 @@ content:
         quote: >
           A capital markets protocol for borrowing and lending built on the top of the Algorand blockchain.
         description: | # this will include new lines to allow paragraphs
-          This is a DeFi (Decentralized Finance) project developed by Blockchain Italia. I have been on the team since the beginning, there I drafted the early design of the protocol. You can access it [here](https://folks.finance/)
+          [Folks Finance](https://folks.finance/) is a DeFi (Decentralized Finance) project developed by Blockchain Italia. I was instrumental in laying the foundation for this project and have been part of the team since its inception. 
+          My role involved drafting the initial design of the protocol on the Algorand blockchain, at a time when there were no DeFi projects on Algorand and skepticism existed regarding the feasibility of such implementations. 
+          My contributions also included the development of the core mathematical models and their practical implementation, thereby establishing the groundwork for what would become a pioneering DeFi service on the Algorand platform.
           
       - layout: top-middle
         title: Ethereum Gateway
@@ -166,7 +170,7 @@ content:
         link: https://www.blockchainitalia.io/
         link_text: blockchainitalia.io
         sub_title: Blockchain Solutions Engineer - Cofounder
-        caption: Aug 2018 - Present
+        caption: Aug 2018 - Apr 2023
         quote: >
           Blockchain Italia is a software house based in Milan specialized in fintech and blockchain solutions.
         description: | # this will include new lines to allow paragraphs
