@@ -79,7 +79,9 @@ content:
           The main pillars of our QA system are:
 
           • Writing and running <mark>end-to-end tests</mark> to continuously assess the stability of Erigon across multiple chains (Ethereum, Gnosis, etc.).
+          
           • Collecting detailed <mark>performance measurements</mark> during test execution to identify regressions through a Change Point Detection system.
+          
           • Gathering and analyzing <mark>profiling data</mark> to provide developers with actionable insights for optimizing Erigon’s performance.
           
           The QA infrastructure we developed includes self-hosted test runners, automated workflows integrated with <mark>GitHub Actions</mark>, test scripts, and dashboards (Grafana + MongoDB) for visualizing test metrics and trends.
