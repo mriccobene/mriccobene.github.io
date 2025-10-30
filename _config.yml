@@ -74,15 +74,15 @@ content:
         quote: >
           An open-source Ethereum client written in Go, designed for high performance and modularity.
         description: |
-          As part of the Erigon core team, I work on the design and development of the QA system that assesses the <mark>stability</mark> and <mark>performance</mark> of the client.
+          As part of the Erigon core team, I contribute to the collective effort of ensuring the client's stability and performance.
 
-          The main pillars of our QA system are:
+          We have designed and developed a QA system based on three main pillars:
 
           • Writing and running <mark>end-to-end tests</mark> to continuously assess the stability of Erigon across multiple chains (Ethereum, Gnosis, etc.).
           
           • Collecting detailed <mark>performance measurements</mark> during test execution to identify regressions through a Change Point Detection system.
           
-          • Gathering and analyzing <mark>profiling data</mark> to provide developers with actionable insights for optimizing Erigon’s performance.
+          • Gathering and analyzing <mark>profiling data</mark> to provide actionable insights for optimizing Erigon’s performance.
           
           The QA infrastructure we developed includes self-hosted test runners, automated workflows integrated with <mark>GitHub Actions</mark>, test scripts, and dashboards (Grafana + MongoDB) for visualizing test metrics and trends.
           Each test runner is configured using <mark>Ansible</mark> and is fully observable and controllable through a management application, which can be accessed via a web UI or automation scripts.
