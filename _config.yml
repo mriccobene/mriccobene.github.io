@@ -48,20 +48,20 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.gif
 about_content: | # this will include new lines to allow paragraphs
-  I design and build software systems taking into account <mark>architectural issues</mark> and human factors.
+  I design software systems from scratch, reinventing what they can be in the age of <mark>generative AI</mark>.
 
-  My professional interests concern <mark>trustiness</mark> <mark>security</mark> and <mark>reliability</mark> of systems, 
-  software architecture and the qualities it determines, as well as human-machine interaction. 
-  
+  I want to pair the <mark>infinite</mark> knowledge of AI models with the <mark>zero</mark>-knowledge of cryptographic systems, building information systems that are trustworthy and intuitive — a harmonious coexistence of trust and efficiency.
+
+  My professional interests concern the <mark>trustiness</mark>, <mark>security</mark> and <mark>reliability</mark> of systems,
+  as well as <mark>human-machine interaction</mark> and the new possibilities that <mark>AI</mark> opens up in this space.
+
   I am an Ethereum core dev and I also design trustless applications using <mark>blockchain</mark>, <mark>cryptography</mark> and <mark>software engineering</mark>.
-  Additionally, I am exploring how <mark>generative AI</mark> can endow applications with conversational intelligence and gradually make obsolete parts of conventional software.
-  
-  I have written software using <mark>programming languages</mark> like C++, Java, Python, JavaScript/TypeScript, Solidity.
+  I use <mark>AI</mark> in my projects with a twofold purpose: making the user experience more human, and employing it as an <mark>architectural component</mark> that enables entirely new features and possibilities.
+
+  I co-founded <mark>[IntelliTrust](https://intellitrust.ai/)</mark>.
 
   I live and swim in Genoa.
 
-  Ah, I think code is mostly for <mark>humans</mark> rather than for machines ;-)
-  
 
 content:
      
@@ -298,6 +298,8 @@ content:
       - <mark>networking</mark>
       - <mark>web</mark> development
       - <mark>blockchain</mark> development
+
+      Over the years I have written software using <mark>programming languages</mark> like C++, Java, Python, JavaScript/TypeScript and Solidity.
 
 # to add a link: [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
 # to link an image: ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
